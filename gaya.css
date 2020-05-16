@@ -1,0 +1,40 @@
+html{
+    background-color: #18f0ff;
+    font-family: roboto;
+}
+.bg {
+            height: 100%;
+            /* The image used */
+            background-image: url("prism.svg");
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+
+        .head{
+            color: honeydew;
+            background: #656a6e63;
+            font-size: 30px;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 10px 10px 0 0;
+            margin-top: 20px;
+        }
+
+        .carousel {
+            background: #656a6e63;
+            border-radius: 0px 0px 10px 10px;
+            padding-bottom: 50px;
+        }
+
+        .carousel-item {
+            text-align: center;
+            /* Prevent carousel from being distorted if for some reason image doesn't load */
+        }
+
+        .clause{
+            border-radius: 50px;
+        }
